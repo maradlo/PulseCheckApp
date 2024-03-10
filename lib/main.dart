@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'PulseCheck',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey.shade600),
         useMaterial3: true,
       ),
       home: const LoginScreen(),
